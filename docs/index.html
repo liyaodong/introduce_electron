@@ -6,9 +6,9 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
 
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
 
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -17,7 +17,7 @@
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        link.href = 'https://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -29,34 +29,35 @@
 </section>
 
 <section>
-<section id="slide-orgda893fa">
-<h2 id="orgda893fa"><span class="section-number-2">1</span> Introduce Electron/Node-Webkit</h2>
+<section id="slide-org8419451">
+<h2 id="org8419451"><span class="section-number-2">1</span> Introduce Electron/Node-Webkit</h2>
 <div class="outline-text-2" id="text-1">
-</div></section>
-<section id="slide-org11e50ed">
-<h3 id="org11e50ed"><span class="section-number-3">1.1</span> What is that?</h3>
+</div>
+</section>
+<section id="slide-org7b5e0b1">
+<h3 id="org7b5e0b1"><span class="section-number-3">1.1</span> What is that?</h3>
 <p>
 Electron/Node-Webkit is a tool lets for building cross-platform desktop apps with javascript/html/css
 </p>
 </section>
-<section id="slide-orgf5da29f">
-<h3 id="orgf5da29f"><span class="section-number-3">1.2</span> ScreenShot-login</h3>
+<section id="slide-orgcb02feb">
+<h3 id="orgcb02feb"><span class="section-number-3">1.2</span> ScreenShot-login</h3>
 <img class="stretch" src="./home.jpeg">
 </section>
-<section id="slide-org0699cf5">
-<h3 id="org0699cf5"><span class="section-number-3">1.3</span> ScreenShot-home</h3>
+<section id="slide-org2335cb4">
+<h3 id="org2335cb4"><span class="section-number-3">1.3</span> ScreenShot-home</h3>
 <img class="stretch" src="./home-2.jpeg">
 </section>
-<section id="slide-org91b64bb">
-<h3 id="org91b64bb"><span class="section-number-3">1.4</span> Difference between Javascript/Nodejs</h3>
+<section id="slide-org28c8855">
+<h3 id="org28c8855"><span class="section-number-3">1.4</span> Difference between Javascript/Nodejs</h3>
 <ul>
 <li>Javascript(run in browser with sandbox)</li>
 <li>Nodejs(run in server side without sandbox)</li>
 
 </ul>
 </section>
-<section id="slide-org02e21a4">
-<h3 id="org02e21a4"><span class="section-number-3">1.5</span> The power of desktop APP?</h3>
+<section id="slide-org756f4eb">
+<h3 id="org756f4eb"><span class="section-number-3">1.5</span> The power of desktop APP?</h3>
 <ul>
 <li>read systems file</li>
 <li>offline support(no loading indicator, service-worker can do same thing)</li>
@@ -67,20 +68,21 @@ Electron/Node-Webkit is a tool lets for building cross-platform desktop apps wit
 
 </ul>
 </section>
-<section id="slide-orge10fa1a">
-<h3 id="orge10fa1a"><span class="section-number-3">1.6</span> Desktop APP development before node-webkit</h3>
+<section id="slide-org3f12257">
+<h3 id="org3f12257"><span class="section-number-3">1.6</span> Desktop APP development before node-webkit</h3>
 <div class="outline-text-3" id="text-1-6">
-</div></section>
-<section id="slide-org75c334e">
-<h4 id="org75c334e"><span class="section-number-4">1.6.1</span> win32 assembly</h4>
+</div>
+</section>
+<section id="slide-org5aef8e3">
+<h4 id="org5aef8e3"><span class="section-number-4">1.6.1</span> win32 assembly</h4>
 <img class="stretch" src="./win32.png">
 </section>
-<section id="slide-orgd83d71d">
-<h4 id="orgd83d71d"><span class="section-number-4">1.6.2</span> win32 api</h4>
+<section id="slide-orga554fc7">
+<h4 id="orga554fc7"><span class="section-number-4">1.6.2</span> win32 api</h4>
 <img class="stretch" src="./win32api.png">
 </section>
-<section id="slide-orgceed615">
-<h4 id="orgceed615"><span class="section-number-4">1.6.3</span> history</h4>
+<section id="slide-org55c1b7e">
+<h4 id="org55c1b7e"><span class="section-number-4">1.6.3</span> history</h4>
 <ul>
 <li>基于系统 api(win32 api, 汇编、C++)</li>
 <li>抽象系统 api 之后形成的框架/库(Win: MFC/Delphi/WPF, Linux: Gnome/GTK+/KDE, Mac: Cocoa)</li>
@@ -91,8 +93,8 @@ Electron/Node-Webkit is a tool lets for building cross-platform desktop apps wit
 
 </ul>
 </section>
-<section id="slide-org035deb1">
-<h3 id="org035deb1"><span class="section-number-3">1.7</span> Node-Wekbit <a href="http://nwjs.io">http://nwjs.io</a></h3>
+<section id="slide-org8d29982">
+<h3 id="org8d29982"><span class="section-number-3">1.7</span> Node-Wekbit <a href="http://nwjs.io">http://nwjs.io</a></h3>
 <ul>
 <li>2011 start project with name node-webkit</li>
 <li>2015 rename to nw.js</li>
@@ -100,8 +102,8 @@ Electron/Node-Webkit is a tool lets for building cross-platform desktop apps wit
 
 </ul>
 </section>
-<section id="slide-org8830a15">
-<h3 id="org8830a15"><span class="section-number-3">1.8</span> Electron <a href="https://electron.atom.io/">https://electron.atom.io/</a></h3>
+<section id="slide-orgc475791">
+<h3 id="orgc475791"><span class="section-number-3">1.8</span> Electron <a href="https://electron.atom.io/">https://electron.atom.io/</a></h3>
 <ul>
 <li>2013 start project with atom-shell</li>
 <li>2014 open source with MIT LICENSE</li>
@@ -113,28 +115,30 @@ Electron/Node-Webkit is a tool lets for building cross-platform desktop apps wit
 </section>
 </section>
 <section>
-<section id="slide-org1f0e2d1">
-<h2 id="org1f0e2d1"><span class="section-number-2">2</span> Basic concept of Electron</h2>
+<section id="slide-org54a021f">
+<h2 id="org54a021f"><span class="section-number-2">2</span> Basic concept of Electron</h2>
 <div class="outline-text-2" id="text-2">
-</div></section>
-<section id="slide-org8c60b6f">
-<h3 id="org8c60b6f"><span class="section-number-3">2.1</span> process</h3>
+</div>
+</section>
+<section id="slide-org015d6b0">
+<h3 id="org015d6b0"><span class="section-number-3">2.1</span> process</h3>
 <img class="stretch" src="./process.png">
 </section>
 </section>
 <section>
-<section id="slide-orgc1f7db8">
-<h2 id="orgc1f7db8"><span class="section-number-2">3</span> Features of Electron &amp; Demo time</h2>
+<section id="slide-org1557cc2">
+<h2 id="org1557cc2"><span class="section-number-2">3</span> Features of Electron &amp; Demo time</h2>
 <div class="outline-text-2" id="text-3">
-</div></section>
-<section id="slide-org96b65ab">
-<h3 id="org96b65ab"><span class="section-number-3">3.1</span> build-in feature &amp; demo</h3>
+</div>
+</section>
+<section id="slide-org84830b5">
+<h3 id="org84830b5"><span class="section-number-3">3.1</span> build-in feature &amp; demo</h3>
 <p>
 <a href="https://github.com/electron/electron-api-demos">https://github.com/electron/electron-api-demos</a>
 </p>
 </section>
-<section id="slide-org85c62f1">
-<h3 id="org85c62f1"><span class="section-number-3">3.2</span> electron community</h3>
+<section id="slide-org21e4c85">
+<h3 id="org21e4c85"><span class="section-number-3">3.2</span> electron community</h3>
 <ul>
 <li>index <a href="https://electronjs.org/community">https://electronjs.org/community</a></li>
 <li>ui library <a href="http://photonkit.com/">http://photonkit.com/</a></li>
@@ -143,16 +147,18 @@ Electron/Node-Webkit is a tool lets for building cross-platform desktop apps wit
 </section>
 </section>
 <section>
-<section id="slide-org7a969b7">
-<h2 id="org7a969b7"><span class="section-number-2">4</span> Q&amp;A</h2>
+<section id="slide-org782d782">
+<h2 id="org782d782"><span class="section-number-2">4</span> Q&amp;A</h2>
 <div class="outline-text-2" id="text-4">
-</div></section>
-<section id="slide-orgc56b9c8">
-<h3 id="orgc56b9c8"><span class="section-number-3">4.1</span> What's the pros and cons for electron</h3>
+</div>
+</section>
+<section id="slide-org1e4d2d3">
+<h3 id="org1e4d2d3"><span class="section-number-3">4.1</span> What's the pros and cons for electron</h3>
 <div class="outline-text-3" id="text-4-1">
-</div></section>
-<section id="slide-orgd1f368d">
-<h4 id="orgd1f368d"><span class="section-number-4">4.1.1</span> pros</h4>
+</div>
+</section>
+<section id="slide-org215cf8f">
+<h4 id="org215cf8f"><span class="section-number-4">4.1.1</span> pros</h4>
 <ul>
 <li>modern way to develop user interface/interaction(react/redux)</li>
 <li>thousands of packages from npm.js, also has some UI library</li>
@@ -163,8 +169,8 @@ Electron/Node-Webkit is a tool lets for building cross-platform desktop apps wit
 
 </ul>
 </section>
-<section id="slide-org33e9af2">
-<h4 id="org33e9af2"><span class="section-number-4">4.1.2</span> cons</h4>
+<section id="slide-org30035ac">
+<h4 id="org30035ac"><span class="section-number-4">4.1.2</span> cons</h4>
 <ul>
 <li>app size &gt;= 50MB?</li>
 <li>feature limitation(i.e. touchbar)</li>
@@ -172,44 +178,44 @@ Electron/Node-Webkit is a tool lets for building cross-platform desktop apps wit
 
 </ul>
 </section>
-<section id="slide-org0d884ba">
-<h3 id="org0d884ba"><span class="section-number-3">4.2</span> Differnece between Electron and Node-Webkit</h3>
+<section id="slide-org5315042">
+<h3 id="org5315042"><span class="section-number-3">4.2</span> Differnece between Electron and Node-Webkit</h3>
 <p>
 <a href="https://electronjs.org/docs/development/atom-shell-vs-node-webkit">https://electronjs.org/docs/development/atom-shell-vs-node-webkit</a>
 </p>
 </section>
-<section id="slide-orge56a37c">
-<h3 id="orge56a37c"><span class="section-number-3">4.3</span> Difference between Electron and Chrome extension</h3>
+<section id="slide-orgc3ac813">
+<h3 id="orgc3ac813"><span class="section-number-3">4.3</span> Difference between Electron and Chrome extension</h3>
 <ul>
 <li>Chrome extension is for build web app</li>
 <li>Electron is for build app, more powerful</li>
 
 </ul>
 </section>
-<section id="slide-org3379901">
-<h3 id="org3379901"><span class="section-number-3">4.4</span> How to start a server and use database in Electron</h3>
+<section id="slide-org13ef131">
+<h3 id="org13ef131"><span class="section-number-3">4.4</span> How to start a server and use database in Electron</h3>
 <ul>
 <li>why you need an server? server is not belongs to an App</li>
 <li>want store some data? just use localStorage/sessionStorage/indexDB like in browser</li>
 
 </ul>
 </section>
-<section id="slide-org4848f2f">
-<h3 id="org4848f2f"><span class="section-number-3">4.5</span> Is my app source code protected for decompilation</h3>
+<section id="slide-org24dc996">
+<h3 id="org24dc996"><span class="section-number-3">4.5</span> Is my app source code protected for decompilation</h3>
 <p>
 No, the V8 JavaScript engine is never designed to hide source code.
 </p>
 </section>
-<section id="slide-org9c285f2">
-<h3 id="org9c285f2"><span class="section-number-3">4.6</span> Use native npm modules</h3>
+<section id="slide-org6c3064b">
+<h3 id="org6c3064b"><span class="section-number-3">4.6</span> Use native npm modules</h3>
 <ul>
 <li>native npm modules?(node-sass)</li>
 <li>different v8 version between your system nodejs and electron</li>
 
 </ul>
 </section>
-<section id="slide-orgd815899">
-<h3 id="orgd815899"><span class="section-number-3">4.7</span> Talk with third part app/cli?(git, imagemagick)</h3>
+<section id="slide-org2ddf1c7">
+<h3 id="org2ddf1c7"><span class="section-number-3">4.7</span> Talk with third part app/cli?(git, imagemagick)</h3>
 <ul>
 <li>install the third part app by npm postinstall</li>
 <li>download the portable version and put it in your apps folder</li>
@@ -217,15 +223,15 @@ No, the V8 JavaScript engine is never designed to hide source code.
 
 </ul>
 </section>
-<section id="slide-org5296635">
-<h3 id="org5296635"><span class="section-number-3">4.8</span> Access to OS process?</h3>
+<section id="slide-orgc759d99">
+<h3 id="orgc759d99"><span class="section-number-3">4.8</span> Access to OS process?</h3>
 <p>
 npm native module
 <a href="https://www.npmjs.com/package/ps-tree">https://www.npmjs.com/package/ps-tree</a>
 </p>
 </section>
-<section id="slide-org725f657">
-<h3 id="org725f657"><span class="section-number-3">4.9</span> Atom/Visual Studio Code both are using electorn, why VSC is fater than atom?</h3>
+<section id="slide-orgd477af6">
+<h3 id="orgd477af6"><span class="section-number-3">4.9</span> Atom/Visual Studio Code both are using electorn, why VSC is fater than atom?</h3>
 <p>
 <a href="http://teahour.fm/2017/12/12/why-vscode-is-better-than-atom.html">http://teahour.fm/2017/12/12/why-vscode-is-better-than-atom.html</a>
 </p>
@@ -236,19 +242,19 @@ npm native module
 
 </ul>
 </section>
-<section id="slide-org96d1a53">
-<h3 id="org96d1a53"><span class="section-number-3">4.10</span> deploy</h3>
+<section id="slide-orgc80139a">
+<h3 id="orgc80139a"><span class="section-number-3">4.10</span> deploy</h3>
 </section>
 </section>
 <section>
-<section id="slide-org6b27714">
-<h2 id="org6b27714"><span class="section-number-2">5</span> Thanks</h2>
+<section id="slide-org34367aa">
+<h2 id="org34367aa"><span class="section-number-2">5</span> Thanks</h2>
 </section>
 </section>
 </div>
 </div>
-<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
-<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -275,11 +281,11 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
- { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
 });
 </script>
 </body>

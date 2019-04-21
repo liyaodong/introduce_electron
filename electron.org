@@ -1,9 +1,10 @@
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+TITLE: Desktop APP Development With FrontEnd Tech
 #+Email: ydli@thoughtworks.com
 #+Date:
 #+Author:
 #+OPTIONS: timestamp:nil, toc:nil
+#+EXPORT_FILE_NAME: docs/index.html
 
 * Introduce Electron/Node-Webkit
 ** What is that?
